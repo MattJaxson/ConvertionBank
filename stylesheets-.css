@@ -1,0 +1,95 @@
+div {
+	border-radius: 5px;
+}
+center {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+}
+
+#name {
+	float:left;
+	margin-left: 5px;
+	padding-top: 5px;
+	font-size: 16px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #003399;
+}
+
+#email{
+	float:right;
+	margin-right: 5px;
+	padding-top: 5px;
+	font-size: 16px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #003399;
+}
+
+
+h4 {
+	margin-left: 5px;
+	margin-bottom: 15px;
+	font-family: Georgia, serif;
+	color:white;
+}
+
+.right p {
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-top: -10px;
+	font-family: Garamond, serif;
+	color: white;
+}
+
+li {
+	list-style-type: square;
+	color: white
+}
+
+a:hover {
+	font-weight: bold;
+}
+
+.left {
+	position: relative;
+	float: left;
+	margin-top: 50px;
+	width: 10%;
+	height: 500px;
+	background-color: #16aa56;
+	margin-bottom: 10px;
+}
+
+.right {
+	position: relative;
+	float: left;
+	margin-top: 50px;
+	width: 780px;
+	height: 500px;
+	background-color: #333;
+	margin-bottom: 10px;
+}
+
+#footer {
+	position: static;
+	height: 140px;
+	background-color: #333;
+	clear: both;
+	font-size: 14px;
+	text-align: center;
+	color: white;
+}
+
+#footer p {
+	position: static;
+	padding-top: 15px;
+} 
+
+body { 
+	background-color: #16aa56
+
+}
+

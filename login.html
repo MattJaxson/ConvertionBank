@@ -1,0 +1,59 @@
+<html>
+  <head>
+    <link type="text/css" rel="stylesheet" href="stylesheet.css"/>
+  </head>
+<style>
+body {margin: 0;}
+
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul.topnav li a:hover:not(.active) {background-color: #111;}
+
+ul.topnav li .active {background-color: #4CAF50;}
+
+ul.topnav li.right {float: right;}
+
+@media screen and (max-width: 600px){
+    ul.topnav li.right,
+    ul.topnav li {float: none;}
+}
+</style>
+</head>
+<body>
+
+<ul class="topnav">
+  <li><a href="#home">Home</a></li>
+  <li><a href="#news">News</a></li>
+  <li><a href="#contact">Contact</a></li>
+  <li><a href="#about">About</a></li>
+  <li><a class="active" href="#login">Sign In</a></li>
+</ul>
+  <div class='login'>
+  <h2>Sign in</h2>
+  <input name='username' placeholder='Username' type='text'/>
+  <input id='pw' name='password' placeholder='Password' type='password'/>
+  <div class='remember'>
+    <input checked='' id='remember' name='remember' type='checkbox'/>
+    <label for='remember'></label>Remember me
+  </div>
+  <input type='submit' value='Sign in'/>
+  <a class='forgot' href='#'>Forgot your password?</a>
+</div>
+<body>
+</html>
