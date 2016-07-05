@@ -75,7 +75,7 @@ a:hover {
 
 #footer {
 	position: static;
-	height: 140px;
+	height: 88px;
 	background-color: #333;
 	clear: both;
 	font-size: 14px;
@@ -84,12 +84,16 @@ a:hover {
 }
 
 #footer p {
-	position: static;
+	position: relative;
 	padding-top: 15px;
 } 
 
 body { 
 	background-color: #16aa56
 
+}
+
+#ok { 
+  background-color:white;
 }
 

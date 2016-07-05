@@ -1,5 +1,5 @@
 body {
-  background:  #16aa56;
+  background:  #336699;
   color:  #ffffff;
   font-family: sans-serif;
 }
@@ -58,14 +58,14 @@ label {
 }
 
 #remember:checked ~ label[for=remember] {
-  background:  #4CAF50;
+  background:  #336699;
   border: 3px solid #252730;
-  box-shadow: 0px 0px 0px 2px #4CAF50;
+  box-shadow: 0px 0px 0px 2px #336699;
 }
 
 
 input[type="submit"] {
-  background: #16aa56;
+  background: #336699;
   border: 0;
   width: 250px;
   height: 40px;
@@ -110,3 +110,7 @@ input[type="submit"]:hover {
   transform: translate(10px, 0);
   opacity: 0;
 }
+.active { 
+  background-color:#336699;
+} 
+  
