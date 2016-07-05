@@ -59,7 +59,7 @@ a:hover {
 	margin-top: 50px;
 	width: 10%;
 	height: 500px;
-	background-color: #16aa56;
+	background-color: #336699;
 	margin-bottom: 10px;
 }
 
@@ -89,11 +89,17 @@ a:hover {
 } 
 
 body { 
-	background-color: #16aa56
+	background-color: #336699
 
 }
 
-#ok { 
-  background-color:white;
+#ok {  
+  background-color: #336699;
 }
+.active {
+	background-color: #336699
+}
+h2 { 
+	color:white;
 
+}

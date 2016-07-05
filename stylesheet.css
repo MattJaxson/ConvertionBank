@@ -36,7 +36,7 @@ input[type="text"], input[type="password"] {
   border: 0;
   border-bottom: 1px solid rgba(255,255,255,0.04);
   outline: none;
-  color:  #16aa56;
+  color:  white;
 }
 input[type=checkbox] {
   display: none;
